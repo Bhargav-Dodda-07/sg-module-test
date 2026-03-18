@@ -1,0 +1,31 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which may contain sensitive data.
+#
+# If you wish to track .tfvars files, add a line to negate the
+# exclusion specific to the file you want to track.
+# Example: !terraform.tfvars
+*.tfvars
+
+# Ignore override files that terraform generates when using the "-out" option
+# and the plan is saved to a file
+#
+# Note: This is an old feature behavior and not the recommended way to run terraform
+# as a plan file is not a complete representation of the state of the infrastructure.
+# Use remote state instead.
+#
+# plan generated file
+tfplan
+
+# Ignore the lock file which is for local use only.
+# Keep the "lock" file in the repository (see below)
+.terraform.lock.hcl
