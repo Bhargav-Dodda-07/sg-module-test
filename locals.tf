@@ -1,3 +1,3 @@
 locals {
-    vpc_id = data.aws_vpc.default.value
+    vpc_id = data.aws_vpc.default.id
 }
